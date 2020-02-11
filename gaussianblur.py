@@ -80,7 +80,7 @@ def merge(r,g,b):
 if __name__ == '__main__':
     input_image = load_img("disha.jpeg")
     
-    kernel = create_gaussian_kernel(5)
+    kernel = create_gaussian_kernel(9)
     
     (r,g,b) = split(input_image)
     
